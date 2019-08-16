@@ -1,12 +1,12 @@
 {
-  "name": "ruid",
+  "name": "ruuid",
   "version": "1.0.0",
-  "description": "ruid",
+  "description": "ruuid",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anthhub/tank-utils"
+    "url": "https://github.com/anthhub/ruuid"
   },
   "scripts": {
     "build": "npx tsc -p .",

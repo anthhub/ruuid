@@ -1,4 +1,4 @@
-function ruid(len = 32, radix = 16) {
+function ruuid(len = 32, radix = 16) {
   const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('')
   const uuid = []
   radix = radix || chars.length
@@ -21,4 +21,4 @@ function ruid(len = 32, radix = 16) {
   return uuid.join('')
 }
 
-export default ruid
+export default ruuid
